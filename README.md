@@ -2,7 +2,7 @@
 
 This is my working draft to re-create USGS TNM Style Template for use in QGIS 3.x. The USGS Topo TNM Style Template is only avaialbe for ArcGIS, as a map document (MXD). There is nothing currently available for QGIS, so using the USGS's ArcGIS Style template as a reference I'm tryng to create a project template with equivalent symbology for QGIS. This is still a working draft and I haven't done any labeling for the layers, yet.
 
-See accompanying blog post, Tips for Creating ArcGIS-like Styles in QGIS: 
+See accompanying blog post, Tips for Creating ArcGIS-like Styles in QGIS: https://opengislab.com/blog/2019/2/5/tips-for-creating-arcgis-like-symbology-in-qgis
 
 FILE USAGE INFO:
 Access to both ArcGIS and QGIS may be needed for the style files to work properly in QGIS.I have ArcGIS 10.6.1 and QGIS 3.4.3 installed on my machine when I created the QML files, so I'm not sure if it will work in QGIS.
