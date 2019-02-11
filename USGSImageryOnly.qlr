@@ -1,0 +1,113 @@
+<!DOCTYPE qgis-layer-definition>
+<qlr>
+  <layer-tree-group checked="Qt::Checked" expanded="1" name="">
+    <customproperties/>
+    <layer-tree-layer providerKey="wms" checked="Qt::Unchecked" source="crs=EPSG:3857&amp;dpiMode=7&amp;format=image/jpgpng&amp;layers=USGSImageryOnly&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/WMTS" expanded="1" id="USGSImageryOnly_6cef66da_0b08_4696_993e_601cd2037833" name="USGSImageryOnly">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <maplayers>
+    <maplayer type="raster" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshTime="0" autoRefreshEnabled="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-19286101.89959516003727913</xmin>
+        <ymin>64.49987095594406128</ymin>
+        <xmax>16266591.44782016798853874</xmax>
+        <ymax>11577830.0881205927580595</ymax>
+      </extent>
+      <id>USGSImageryOnly_6cef66da_0b08_4696_993e_601cd2037833</id>
+      <datasource>crs=EPSG:3857&amp;dpiMode=7&amp;format=image/jpgpng&amp;layers=USGSImageryOnly&amp;styles=default&amp;tileMatrixSet=GoogleMapsCompatible&amp;url=https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer/WMTS</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>USGSImageryOnly</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" maxx="0" miny="0" crs="" maxy="0" minx="0" maxz="0" dimensions="2"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" type="singlebandcolordata" alphaBand="-1" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeGreen="128" colorizeOn="0" saturation="0" grayscaleMode="0" colorizeRed="255" colorizeBlue="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </maplayers>
+</qlr>
