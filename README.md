@@ -4,6 +4,10 @@ This is my working draft to re-create USGS TNM Style Template for use in QGIS 3.
 
 See accompanying blog post, Tips for Creating ArcGIS-like Styles in QGIS: https://opengislab.com/blog/2019/2/5/tips-for-creating-arcgis-like-symbology-in-qgis
 
+UPDATE 3/21/2019: Newly added USGSTNM.xml for importing into QGIS style manager. 
+For more info, see blog post: https://opengislab.com/blog/2019/3/16/converting-esri-styles-to-qgis-styles-using-slyr
+
+
 FILE USAGE INFO:
 Access to both ArcGIS and QGIS may be needed for the style files to work properly in QGIS.I have ArcGIS 10.6.1 and QGIS 3.4.3 installed on my machine when I created the QML files, so I'm not sure if it will work in QGIS.
 
